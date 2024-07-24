@@ -1,0 +1,30 @@
+#php.ini
+
+[mailfunction]
+
+SMTP =smtp.gmail.com
+smtp_port=587
+
+//Remove before ";" semicolons for below two's
+sendmail_from= your_email@gmail.com
+sendmail_path="\"C:xampp\sendmail\sendmail.exe\" -t"
+                            or
+
+		"D:\Web development\webserver\sendmail\sendmail.exe"
+
+
+#sendmail.ini
+
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=your_email@gmail.com
+
+auth_password=your_password (google settings-> security->twostepverification->create application->it generate password)
+auth_password=nbhh piam pxrc ztjj
+
+
+force_sender=your_email@gmail.com
+
+
